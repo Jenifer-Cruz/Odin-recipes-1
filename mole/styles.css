@@ -1,0 +1,168 @@
+/*aqui empieza mole*/
+*{
+color:black;
+font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+header {
+font-style: italic;
+font-weight: bold;
+text-align: center;
+}
+
+h1{
+font-size:23px;
+}
+
+
+div.titulo {
+background-color:#F7F0F0;
+border:2px solid black;
+border-radius:25px;
+margin: 0 auto;
+display:inline-flex;
+padding:3px 12px 3px 12px;
+}
+
+body{
+background-color:#fdf7ff;
+}
+
+img{
+border-radius:30px;
+height:90%;
+width:90%;
+border:2px solid black;
+}
+
+figcaption{
+ font-size:20px;
+ font-weight: bold;
+ margin-top:15px;
+
+}
+ 
+figure{
+width:20%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+div.recipe{
+display:inline-flex;
+flex-direction:row;
+background-color:#F7F0F0;
+width:100%;
+height:750px;
+border: 2px solid black;
+
+}
+
+div.ingredients{
+border: 1px solid black;
+border-left:2px solid black;
+border-top:0px;
+border-bottom:0px;
+background-color:#F7F0F0;
+width:13%;
+}
+
+
+div.intructions{
+background-color:#F7F0F0;
+width:67%;
+border: 1px solid black;
+border-top:0px;
+border-bottom:0px;
+
+
+}
+
+
+
+
+
+a.regreso:link{
+text-decoration:none;
+
+}
+a.regreso:hover{
+font-size:20px;
+}
+a.regreso:visited{
+color:black;
+
+}
+hr
+{
+border:.8px solid black;
+}
+footer
+{
+background-color:#fdf7ff;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+
+.btn {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #F5B041;
+  text-transform: uppercase;
+  position: relative;
+  transition: .5s ease;
+  
+  
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #F5B041;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  color: #1e1e2b;
+  transition-delay: .5s;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #ffc506;
+  transition: .4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+ol {
+font-size:17px;
+}
+ul{
+font-size:17px;
+}
